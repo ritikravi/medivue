@@ -1,0 +1,59 @@
+name: medivue
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: "^3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ----------------------------------------------------
+  #  Firebase (Auth + Firestore + Core)
+  # ----------------------------------------------------
+  firebase_core: ^2.12.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.9.0
+
+  # ----------------------------------------------------
+  #  HTTP + Sensors + Camera + Charts
+  # ----------------------------------------------------
+  http: ^1.2.0
+  camera: ^0.10.6          # For camera HR + fall detection
+  fl_chart: ^0.68.0
+  sensors_plus: ^5.0.0
+
+  # ----------------------------------------------------
+  #  Heart Rate Camera — Use camera flash directly
+  # ----------------------------------------------------
+  # (torch_light optional, you can keep for other features)
+  torch_light: ^1.0.0
+
+  # ----------------------------------------------------
+  #  BLE ESP32
+  # ----------------------------------------------------
+  flutter_blue_plus: ^1.36.8
+
+  # ----------------------------------------------------
+  #  Permissions
+  # ----------------------------------------------------
+  permission_handler: ^11.0.0
+
+  # ----------------------------------------------------
+  #  SOS / CALL / MAPS
+  # ----------------------------------------------------
+  url_launcher: ^6.3.0
+  geolocator: ^10.1.0
+  shared_preferences: ^2.2.2
+  flutter_phone_direct_caller: ^2.1.0
+  google_maps_flutter: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

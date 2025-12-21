@@ -1,0 +1,4 @@
+<resources>
+    <string name="geolocator_foreground_service_channel_name">Location Service</string>
+    <string name="geolocator_foreground_service_channel_description">Used for SOS and live GPS updates</string>
+</resources>
